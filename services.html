@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Shop Now</title>
+ <style>
+ body{
+ background: linear-gradient(pink,lightblue);
+ }
+ nav {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        align-items: center;
+        background-color: black;
+        color: white;
+        position: sticky;
+        top: 0;
+        height: 70px; /* Adjust the height as needed */
+        padding: 0 20px; /* Adjust the horizontal padding as needed */
+      }
+
+      nav .title {
+        font-size: 20px;
+        margin: 1rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul {
+        display: flex;
+      }
+
+      nav ul li {
+        list-style: none;
+        text-decoration: none;
+      }
+
+      nav ul li a {
+        display: block;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        padding: 0.5rem;
+        margin: 0 0.5rem;
+        border-radius: 0.5rem;
+      }
+
+      nav ul li a:not(.active):hover {
+        background-color: grey;
+      }
+ .grid {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 10px;
+ }
+ .grid img {
+ height:300px;
+ width: 500px;
+ border-radius: 20px;
+ }
+ .box {
+ border: 2px rgb(0, 179, 255) solid;
+ border-radius: 20px;
+ }
+ .name{
+ color: rgb(0, 112, 186);
+ }
+ #title{
+ border: 2px black solid;
+ background: #000;
+ }
+ </style>
+</head>
+<body>
+  <nav>
+    <div class="title">HealthQuest</div>
+    <ul>
+      <li>
+        <a href="home.html">HOME</a>
+      </li>
+      <li>
+        <a href="about.html">ABOUT US</a>
+      </li>
+      <li>
+        <a href="course.html">COURSES</a>
+      </li>
+    </ul>
+  </nav>
+ <center><h1 id="title1">Our services</h1>
+ <h2 class="name">HealthCare Services</h2></center>
+ <div class="grid">
+ <div class="box"><img src="health.webp">
+ <center>
+ <h2>Healthy Fruits</h2>
+ <p>Healthy fruits are rich in essential nutrients like vitamins, minerals, and antioxidants, which are important for maintaining good health.Incorporating a variety of fruits into your diet can help boost your immune system, improve digestion, and support overall well-being.</p>
+ </center>
+ </div>
+ <div class="box"><img src="whole grain.jpg">
+ <center>
+ <h2>Whole Grains</h2>
+ <p>Whole grains are an important part of a balanced diet.These retains the nutritious components,including fiber,vitamins,and minerals.Consuming whole grains regularly can help lower the risk of heart disease,improve digestion,and provide sustained energy levels.</p>     
+ </center>
+ </div>
+ <div class="box"><img src="protein.jpg">
+ <center>
+ <h2> Healthy Proteins</h2>
+ <p>Healthy proteins are essential for building and repairing tissues, as well as for various bodily functions.Incorporating a variety of protein sources into your diet ensures you get a wide range of nutrients and amino acids necessary for optimal health.</p>
+ </center>
+ </div>
+ </div>
+ <center><h2 class="name">Fitness Services</h2></center>
+ <div class="grid">
+ <div class="box"><img src="gym.jpg">
+ <center>
+ <h2>Gym Fitness</h2>
+ <p>Fitness encompasses various aspects, including cardiovascular health, strength training, flexibility,and overall well-being.In the gym, you can focus on different fitness goals such as building muscle, improving endurance, or increasing flexibility through a combination of exercises and activities</p>
+ </center>
+ </div>
+ <div class="box"><img src="virtual.jpg">
+ <center>
+ <h2>Virtual Classes</h2>
+ <p>Virtual gym classes have become increasingly popular.They offer the convenience of working out providing structured workouts led by certified instructors.One of the significant advantages of virtual gym classes is their accessibility, making it easier to fit workouts into your schedule.</p>
+ </center>
+ </div>
+ <div class="box"><img src="yoga.webp">
+ <center>
+ <h2>Daily yoga</h2>
+ <p>Daily yoga practice offers a multitude of physical and mental benefits.It helps  to improve flexibility,strength,balance,and posture while also promoting relaxation and stress relief. Additionally, regular yoga practice can enhance mindfulness, focus, and overall well-being.</p>
+ </center>
+ </div>
+ </div>
+</body>
+</html>
